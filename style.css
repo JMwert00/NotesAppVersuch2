@@ -1,0 +1,56 @@
+        header {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .note {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 10px;
+            position: relative;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .note .delete {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            cursor: pointer;
+        }
+
+        input[type="color"] {
+            margin-top: 10px;
+        }
+
+        #datetime {
+            position: relative;
+            top: 10px;
+            left: 10px;
+            text-align: center;
+        }
+
+        .header-box {
+            background-color: #77afd0;
+            /* Hintergrundfarbe der Box */
+            padding: 50px;
+            /* Innenabstand der Box */
+            color: #000000;
+            /* Textfarbe im Header */
+            text-align: center;
+            /* Zentriert den Text im Header */  
+        }
+   
